@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle scc777",
+        "command": "scc777:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "scc777",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "scc777:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
